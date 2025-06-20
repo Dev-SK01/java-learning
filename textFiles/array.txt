@@ -1,0 +1,15 @@
+------------------- JAVA ARRAY ---------------
+
+1. array is an collection of data with same data type. fixed length.
+
+2. dataType [] variableName = {"vale","value"};
+
+3. Array List --> array list is an non fixed array type.
+
+4. import pacakage arrayList from java.util;
+
+5. ArrayList<dataType> variableName = new ArrayList<>();
+
+6. variableName.add("data") , variableName.get(index),
+   variableName.set(index,data),variableName.remove(index),
+   size,sort,indexOf,contains,clone,isEmpty,ensureCapacity

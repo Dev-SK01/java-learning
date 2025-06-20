@@ -1,0 +1,11 @@
+-------------------- JAVA PACKAGE -------------
+
+1. Packages are the namaspace for the java class for manage the codebase organized.
+
+2. to create an package use package keyword --> package foldername;
+
+3. to import package use import keyword --> import foldername.className;
+
+4. if we use same package class dont need to import.
+
+5. pakage folders followed by . --> folder1.folder2.

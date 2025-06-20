@@ -1,0 +1,10 @@
+------------------------ JAVA ACCESS MODIFIERS --------------
+
+1. specifies the access of the class methods and variables.
+     1.public --> accesible from anywhere.
+     2.private --> accesible within class.
+     3.protected -->accesible within package class.
+     4.default -> accesible within package class
+
+
+---------------- JAVA NON ACCESS MODIFIERS ------------

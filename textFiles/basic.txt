@@ -1,0 +1,82 @@
+-------------------- BASIC OF JAVA -------------
+
+1. java is an high level object oriented programming lang. its is used in  most of the  devices.
+
+2. we can build web,mobile,console,system appliation and tools using java. scala is build using java.
+
+----------------------- JAVA ARCHITECTURE -----------
+
+1. source code --> java compiler --> byte code --> jvm --> machine code
+
+2. byte code extentions is byteCode.class.
+
+Java Virtual machine
+
+1. jvm has loader loads the byte code
+
+2. validator validates the run time errors.
+
+3. JIT compiler makes the byte code to machine code
+
+4. Garbage Collection --> clears unused java objects and free up the space for next object.
+
+------------- Java Developement Kit VS Java Runtime Environment -------------
+
+1. JDK used for developement purpose. JRE + JDK + JVM
+
+2. JRE used for execute the java. JRE + JVM
+
+------------------- JAVA SOURCE STRUCTURE --------------
+
+1. first java code starts tih class ClassName{} --> ClassName must be PascalCase
+   while saving the java file file name must be in ClassName.java
+
+2. main() function is an enrty point for the compiler
+
+3. public --> we can accesss the method everywhere. static --> memory management keyword. it can 
+   execute method without creating instance of the class. void --> function return type of null.
+
+4. public static void main(String[] args){//code} --> datatype of the argument.
+
+5. javac ClassName.java --> to compile the java source code.
+
+6. java ClassName --> to execute the java code.
+
+7. we we move out code to prod jar or war for web appliation. java-archive || web Archive
+
+-------------------- JAVA ARCHIVE ----------------
+
+1. create an export for java archive , select path and man class of the jar. if multiple main class don't 
+   select main class , it will export all class fle as jar.
+
+2. java -jar ClassName.jar
+
+
+------------------------- Java Input ------------------
+
+1. java.utils.Scanner has the all keyboard realted class and methods.
+
+
+--------------------- JAVA DATA TYPES AND VARIABLES ---------
+
+1. Data Types are the type of the data. variable is used to store the value of in java programming.
+
+2. it has all common data type and it follows all common rule for the variable declaration. 
+
+3. type of variable VariableName = data;
+
+
+---------------------- Java methods ----------
+
+1. it like function. it will have the specific code and we can run it when we want.
+
+2. Every class has methods and we can call the methods by theri class object instance.
+
+3. return type : void methodName: Addition(Type param){
+   // your code
+}
+
+4. ClassName variable = new ClassName(args); new --> allocates memory for our class.
+
+5. variable.methodName(int a);
+
