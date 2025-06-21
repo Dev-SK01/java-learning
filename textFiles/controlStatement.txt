@@ -1,3 +1,23 @@
 ------------------------- JAVA CONTROL STATEMENT ------------
 
-1.
+1. these statemtents are sed to take control over our java code.
+
+2. Conditinal . Looping ,Jumping statemtents
+
+1. if , switch,while,doWhile,continue,break ,for,for-each
+
+--------------- JAVA OPERATORS -----------
+
+1. Arthemetic operators --> +,-,*,%,\
+2. Assignment operators --> +=,*=,-+.\=
+3. Relational operators --> ==, != ,<= ,>=,
+4. Logical operators --> && , || ,!
+5. Unary operators ---> ++a,a--
+6. InsatanceOf operators --> used to check that the variable is instanc of class.
+7. Ternary operators --> normal ternary op cond ? ture : false;
+
+------------------- TYPES OF LANUAGES ---------------
+
+1. Procedural
+2. Object Oriented
+3. Functional

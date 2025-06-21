@@ -1,0 +1,16 @@
+------------------- JAVA FILE HANDLING ------------
+
+File Writting :
+1. import java.io.FileWritter
+
+2. new FileWritter("location/filename");
+
+3. writter("content to write" || stream obj);
+
+File Reader:
+
+1. import java.io.FileReader
+
+2. new FileReader("location" || stream obj);
+
+2. while((i=fr.read()) !=-1){ out((char) i)} --> reads the EOF and conver into char.

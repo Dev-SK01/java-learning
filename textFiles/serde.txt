@@ -1,0 +1,32 @@
+-------------- SERILIZATION AND DE-SERILIZATION -----------
+
+1. serilization means converting an class object into bytes stream.
+
+2 de-serilization mean converting byte stream into object.
+
+3. we can store byte stream in hard disk, memory,database.
+
+4. when we serilize class object it took less space as byte stream. data transfer occur faster.
+
+----------------------- SERILIZATION --------------
+
+1. first we need to import serilizable interface from java.io package and implement in your obj class.
+
+2. FileOutputStream("location/filename") --> tells the location to store the byte stream.
+
+3. ObjectOutputStream (FileOutputStream variable)
+
+4. ObjectOutputStream variable.writeObject(our object);
+
+5. flus(),close() --> clean and closes the process.
+
+------------------------- DE-SERILIZATION --------------
+
+1. FileInputStream("location/filename") --> input file location for de serilize.
+
+2. ObjectInputStream(FileInputStream variable);
+
+3. ClassName variable = (ClassName) ObjectInputStream variable.readObject();
+
+4. close();
+

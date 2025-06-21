@@ -3,8 +3,21 @@
 1. specifies the access of the class methods and variables.
      1.public --> accesible from anywhere.
      2.private --> accesible within class.
-     3.protected -->accesible within package class.
+     3.protected --> accesible within package class. accesible when class inherited
      4.default -> accesible within package class
 
 
 ---------------- JAVA NON ACCESS MODIFIERS ------------
+
+1. abstract --> tells that the class in abstract class.
+
+2. static --> static doesnot stored in heap , its an memory management in java. 
+   static can be used in variable,method,static block,nested class. it doesnot creates object.
+   when we change the static value it will change other variable data.
+   className.staticVariale or method 
+   static block runs when class runs. static{ // static block}
+
+3. static restrictions --> cannot over ride method, this,super cannot used, cannot use non static members.
+
+4. final --> when we use keyword it cannot be over written.variable,method and class we can use final.
+   when we use final in class it cannot inherited.

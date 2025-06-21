@@ -1,0 +1,11 @@
+----------------------- JAVA EXCEPTION HANDLING -------------
+
+1. handling upnormal things in code , file not found erro, array error.
+
+2. try --> hold the complete logic.
+   catch --> handles the exception, and we write ater exception logic.
+   throw --> works internally, to throw the error. used to create exception
+   finall --> it works if we handled exception or not.
+   throws --> tells there is chancefor exception
+
+3. we can write more tan one try catch block , nested try.

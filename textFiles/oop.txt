@@ -1,0 +1,31 @@
+----------------------- OBJECT ORIENTED PROGRAMMING ---------
+
+1. class and object --> class ia blue print of object , object consist behavior. object stored in heap mem
+
+2. Inheritance --> parent , child class , we can overwrite  the logic of the prent class object.
+  single level and multi level inheritance. multiply inheritance no in java for that interface used.
+
+3. className extends className , main method call last of the inherited class. 
+   main method class should have public keyword.
+
+4. POLYMORPHISM --> many form of the class method , method overloading,over Riding. 
+   for using Polymorphism args must be different. method over riding works in inherited class.
+
+5. ABSTRACTION --> hiding necessary things, in abstract class only method declaration defined.
+  if we use without abstract word we can implement methods.
+  we can implement method for abstract class in inherited class.
+  but we need to implement all the methods in abstract class.
+  we cannot able to create object for abstract class.
+
+6. INTERFACE --> interface like astract , but diff if we cannot implement method in interface
+   & need to implement all methods in interface.
+   to inherit interface class implements keyword is used.
+   we can implements multiple interface for one class. but in class inheritance it cannot.
+
+7. THIS --> its an keyword for an current class object.
+
+8. SUPER --> its an keyword for an parent class object.
+
+9. constructor --> class name method is called constructor. when we create object for class
+   constructor block executed. In default constructor created, used to creat an object.
+   we can able to overload constructor.

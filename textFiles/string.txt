@@ -1,0 +1,5 @@
+--------------------- JAVA STRING METHODS --------
+
+1. string manipulation methods.
+
+2. concat,split,tostring,split,charat,substring,length
