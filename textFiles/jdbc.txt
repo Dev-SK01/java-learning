@@ -1,0 +1,28 @@
+---------------------- JAVA DaTABASE CONNECTION ------------
+
+1. import java.sql.*;
+
+2. class.forName("database package name")
+
+3. download and install jar file for your database
+
+4. Connection con = DriverManager.getConnection("jdbc:connection string","name","password");
+
+5. statement stmt =  con.createStatement();
+
+6. ResultSet res = stmt.executeQuery("db query")
+
+7. res.next() --> to iteraaate query.
+
+8. res.getDatatype(coloumn number) --> res.getInt(1);
+
+9. con.close();
+
+
+
+
+---------------INSATLLING JAR FILE -----------
+
+1. create folder name lib in root folder ad paste the jar package in it.
+
+2. goto java build path got lib and add jar select your project find your folder and select jar file.

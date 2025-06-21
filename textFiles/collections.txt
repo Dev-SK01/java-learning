@@ -1,0 +1,43 @@
+---------------------- JAVA COLLECTION --------
+
+1. Collection is an re usable data structures , java provides framework for list,map,set,queue.
+
+2. it has pre defined methods and class for that data structures
+
+MAP 
+1. in map that is based on the key value pair , we can read using key.
+
+HASH MAP :
+1. hash maps doesnt allow dupicate values. value can be dupicate but not key.
+
+2. import java.util.*; HashMap<Key Type,Value Type> = new  HashMap<Key Type,Value Type>();
+
+3. map.put(key,value); getKey() , getValue(); Map.Entry m: map.entrySet()
+
+4. it donenot follow orders. if we add same key recent key value pair taken.
+
+5. for sorted order we can use tree map
+
+LIST
+
+LINKED LIST:
+
+1. like norma linked list head[0,data,1]--> one[0,data,2]-->[1,data,3]. we can insert in between in list.
+
+2. duplicates allowed. it maintains order, inbetween insert and deleted data.
+
+3. Everything we insert is element.
+
+4. LinkedList<TYPE> list = new LinkedList<TYPE>();
+
+5. list.add(pos,data); list.remove(pos || value)
+
+SET
+
+HASH SET :
+
+1. like linked list.
+
+2. no duplicates are allowed. no orders followed.
+
+3. cannot remove position. only element.
